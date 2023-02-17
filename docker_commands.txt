@@ -1,0 +1,22 @@
+=> docker version
+=> docker run hello-world  => it will run the hello-world, the docker deamon will search for the image in the local machine, if it does not find it,
+                              then it(it acts as an hypervisor b/w client and docker hub) will reach the docker hub and pull the image from the docker hub
+                              to the local machine, then it run the image.
+
+=> docker search MySQL     => it searches for the image and gives the description about the image.
+=> docker pull image_name  => if we want to download the image and we dont want to run it, it will download the image an it show us the status.
+
+=> docker ps --all         => ps will works with containers. here --all will list the all the containers which are executed till now.
+
+=> docker create image_name => to create a container.
+=> docker start -a image_id => to start or run the created image.
+
+=> docker run is combination of docker create and docker start.
+
+=> docker stop image_id    => to stop the running image.
+=> docker kill image_id    => to stop the image immediately.
+=> docker login            => it will asks you for credintials for log you in.
+=> docker logout           => to logout from the existng account.
+=> docker network ls       => to know the details of the list of networks in the cluster.
+=> docker rmi              => is a tagged command to remove the image.
+=> docker rm               => untagged command to remove the image. using rm we can remove one or more images.
