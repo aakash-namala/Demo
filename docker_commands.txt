@@ -1,5 +1,5 @@
 DOCKER BASIC COMMANDS
-THE BASIC TO LEARN FOR GOOD UNDERSTANDING OF DOCKER
+Docker is a set of platform as a service products that use OS-level virtualization to deliver software in packages called containers.
 => docker version
 => docker run hello-world  => it will run the hello-world, the docker deamon will search for the image in the local machine, if it does not find it,
                               then it(it acts as an hypervisor b/w client and docker hub) will reach the docker hub and pull the image from the docker hub
