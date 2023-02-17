@@ -1,4 +1,5 @@
 DOCKER BASIC COMMANDS
+THE BASIC TO LEARN FOR GOOD UNDERSTANDING OF DOCKER
 => docker version
 => docker run hello-world  => it will run the hello-world, the docker deamon will search for the image in the local machine, if it does not find it,
                               then it(it acts as an hypervisor b/w client and docker hub) will reach the docker hub and pull the image from the docker hub
